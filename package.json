@@ -1,0 +1,17 @@
+{    
+    "name": "proyecto_02",
+    "version": "1.0.0",
+    "description": "Proyecto II",
+    "author": "David Rojas",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview"
+    },
+    "devDependencies": {
+        "@nuxt/content": "2.1.1",
+        "nuxt": "3.0.0-rc.9"
+    }
+}

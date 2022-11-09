@@ -1,0 +1,97 @@
+.text-justify{
+    text-align: justify;
+}
+
+#logo{
+    max-width: 335px;
+}
+
+.bg-dark{
+    background-color: black !important;
+}
+
+.textoMenu{
+    font-size: 20px !important;
+    color: #C0C0C0 !important;
+}
+
+.textoMenu:hover{
+    color: rgb(255 255 255 / 85%) !important;
+}
+
+#btnMenu{
+    color: #C0C0C0 !important;
+    border-color: #C0C0C0 !important;
+    background-color: #000000 !important;
+}
+
+#btnMenu:hover{
+    color: #000000 !important;
+    border-color: #000000 !important;
+    background-color: #C0C0C0 !important;
+}
+
+.text-gray-GOT{
+    color: #C0C0C0;
+}
+
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+#divIndex{
+    background-image: url('/images/fondos/fondoIndex.jpg');
+    /*min-height: 100vh;*/
+}
+
+#divPersonajes{
+    background-image: url('/images/fondos/fondoCatalogoPersonajes.jpg');
+    /*min-height: 100vh;*/
+}
+
+#divCasas{
+    background-image: url('/images/fondos/fondoCatalogoCasas.jpg');
+    /*min-height: 100vh;*/
+}
+
+#divBatallas{
+    background-image: url('/images/fondos/fondoCatalogoBatallas.jpg');
+    /*min-height: 100vh;*/
+}
+
+#divBuscador{
+    background-image: url('/images/fondos/fondoBuscador.jpg');
+    /*min-height: 100vh;*/
+}
+
+.fondoEspecialGris{
+    background-color: rgb(204 204 204 / 25%);
+    width: 100%;
+    /*min-height: 100vh;*/
+}
+
+.fondoEspecialBlanco{
+    background-color: #FFFFFF;
+    background-color: rgb(255 255 255 / 65%);
+    width: 100%;
+    border: #999999 2px solid;
+}
+
+.card{
+    background-color: rgb(204 204 204 / 65%) !important;
+    border: #999999 2px solid !important;
+}
+
+.card-white{
+    background-color: rgb(255 255 255 / 65%) !important;
+    border: rgb(102 102 102 / 50%) 2px solid !important
+}
+
+tbody, td, tfoot, th, thead, tr{
+    border-color: #000000 !important;
+}
