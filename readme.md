@@ -2,7 +2,7 @@
 ## Escuela de Informática 
 ### Arquitectura de información.
 
-#### Proyecto 1.
+#### Proyecto 2.
 
 Estudiante: 
 David Rojas Chavarría
@@ -14,10 +14,10 @@ Armando Arce Orozco.
 Ciclo II 2022
 
 Repositorio
-
+	https://github.com/DavidRojasChavarriaUNA/ProyectoII-AI
 Sitio web
-Podrá acceder al sitio web del proyecto I en la siguiente dirección web:
-	https://proyecto-i-ai-david-rojas.netlify.app/
+Podrá acceder al sitio web del proyecto II en la siguiente dirección web:
+	https://proyecto-ii-ai-david-rojas.netlify.app/
 	
 para instalar el proyecto ejecutar el comando
 npm i
