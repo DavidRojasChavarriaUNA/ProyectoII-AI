@@ -20,6 +20,10 @@
                 <label for="txtBatalla" class="form-label">Batalla</label>
                 <input type="text" class="form-control" id="txtBatalla">
               </div>
+              <div class="mb-3">
+                <label for="txtTemporadaCapitulo" class="form-label">Temporada o capitulo</label>
+                <input type="text" class="form-control" id="txtTemporadaCapitulo">
+              </div>
               <div class="mb-3 text-center">
                 <button type="submit" class="btn btn-primary">Buscar</button>
               </div>
