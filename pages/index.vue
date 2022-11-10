@@ -31,6 +31,17 @@
               </div>
             </div>
           </div>
+          </div>
+        <div class="row m-0 justify-content-md-center">
+          <div class="offset-2 offset-sm-3 offset-md-0 col-8 col-sm-6 col-md-5 col-lg-3 pt-5 pb-5">
+            <div class="card p-3">
+              <h4 class="card-title text-center">Temporadas y episodios</h4>
+              <img src="/public/images/index/episodios.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center pb-0">
+                <a href="/episodios" class="btn btn-primary">Ver</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

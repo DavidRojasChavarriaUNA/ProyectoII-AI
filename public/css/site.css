@@ -11,7 +11,7 @@
 }
 
 .textoMenu{
-    font-size: 20px !important;
+    font-size: 18px !important;
     color: #C0C0C0 !important;
 }
 
@@ -69,6 +69,11 @@
     /*min-height: 100vh;*/
 }
 
+#divEpisodios{
+    background-image: url('/images/fondos/fondoEpisodios.jpg');
+    /*min-height: 100vh;*/
+}
+
 .fondoEspecialGris{
     background-color: rgb(204 204 204 / 25%);
     width: 100%;
@@ -94,4 +99,9 @@
 
 tbody, td, tfoot, th, thead, tr{
     border-color: #000000 !important;
+}
+
+.box{
+    background-color: rgb(255 255 255 / 20%);
+    border: rgb(128 128 128 / 50%) 1px solid;
 }

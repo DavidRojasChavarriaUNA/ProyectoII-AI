@@ -7,7 +7,7 @@
                     <div class="col-12 offset-md-1 col-md-10 p-5">
                         <article class="fondoEspecialBlanco p-3">
                             <h1 class="text-center">Casa: {{house.House_name}}</h1>
-                            <h2 class="text-center">Región: {{house.Region}}</h2>
+                            <h2 class="text-center pt-3">Región: {{house.Region}}</h2>
                             <h3 class="text-center">Miembros:</h3>
                             <div class="row justify-content-md-center pt-5">
                                 <div class="col-12 col-md-10">
