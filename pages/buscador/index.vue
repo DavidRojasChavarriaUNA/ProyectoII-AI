@@ -24,6 +24,12 @@
                 <label for="txtTemporadaCapitulo" class="form-label">Temporada o capitulo</label>
                 <input type="text" class="form-control" id="txtTemporadaCapitulo">
               </div>
+              <div class="mb-3">
+                <label for="txtTemporadaCapitulo" class="form-label">Genero</label>
+                <select class="form-control" id="cmbGenero">
+                  <option v-for="gender in genders" :key="gender" :value="gender" >{{gender}}</option>
+                </select>
+              </div>
               <div class="mb-3 text-center">
                 <button type="submit" class="btn btn-primary">Buscar</button>
               </div>
@@ -36,3 +42,11 @@
     <FooterView />
   </main>
 </template>
+<script setup>
+  const data = await queryContent('characters-gender').only("gender").findOne()
+  const characters = data.gender
+  const genders = characters.filter((gender, index, array) => {
+    return index === array.findIndex((e) => e.gender === gender.gender)
+  }).map(episode => episode.gender)
+  genders.unshift('');
+</script>
