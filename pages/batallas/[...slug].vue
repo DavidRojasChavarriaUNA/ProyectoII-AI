@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                             <div class="text-end">
-                                <NuxtLink :to="`/batallas`">Regresar</NuxtLink>
+                                <NuxtLink @click="$router.back()" to="#">Regresar</NuxtLink>
                             </div>
                         </article>
                     </div>

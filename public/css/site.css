@@ -74,6 +74,11 @@
     /*min-height: 100vh;*/
 }
 
+#divGenero{
+    background-image: url('/images/fondos/fondoCatalogoGenero.png');
+    /*min-height: 100vh;*/
+}
+
 .fondoEspecialGris{
     background-color: rgb(204 204 204 / 25%);
     width: 100%;
