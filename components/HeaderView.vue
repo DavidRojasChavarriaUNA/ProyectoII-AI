@@ -25,7 +25,7 @@
                             <NuxtLink class="nav-link textoMenu" to="/episodios">Temporadas y episodios</NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <NuxtLink class="nav-link textoMenu" to="/personajes">Personajes por genero</NuxtLink>
+                            <NuxtLink class="nav-link textoMenu" to="/genero">Personajes por genero</NuxtLink>
                         </li>
                         <li class="nav-item">
                             <NuxtLink class="nav-link textoMenu" to="/buscador">Buscador</NuxtLink>
