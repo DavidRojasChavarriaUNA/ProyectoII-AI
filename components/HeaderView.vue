@@ -27,6 +27,9 @@
                         <li class="nav-item">
                             <NuxtLink class="nav-link textoMenu" to="/episodios">Temporadas y episodios</NuxtLink>
                         </li>
+                        <li class="nav-item">
+                            <NuxtLink class="nav-link textoMenu" to="/personajes">Personajes por genero</NuxtLink>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
